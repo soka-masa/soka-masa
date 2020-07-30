@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+body {
+    color: #505050;
+}
+
+input[type="button"] {
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+    background: linear-gradient(0deg, #ffc0cb, #afeeee);
+    color: #FFF;
+}
+
+
+div:not([id="food"]) ul{
+    padding-left: 0px;
+    width: 50%;
+}
+
+div:not([id="food"]) ul li{
+    list-style-type: none;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-bottom: 5px;
+    background: #ffe4e1;
+    color: #505050;
+    border-radius: 15px 15px;
+}
+div:not([id="food"]) ul li:before{
+    display:inline-block; 
+    content:'';
+    width: 1em;
+    height: 1em;
+    background: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#food{
+    width: 500px;
+    background: #e0ffff;
+    border-radius: 15px 15px;
+    
+}
+
+li:link {
+    color: #505050;
+}
+
+a:visited {
+    color: #505050;
+}
+
+h1 {
+    padding: 0.5e, 0;
+    border-bottom: solid 3px #afeeee;
+    width: 300px
+}
+
+h2 {
+    display: inline-block;
+    border: dashed 2px #afeeee;
+    padding: 0.2em 0.5em;
+}
+
+h3 {
+    display: inline-block;
+    border-bottom: dashed 2px #afeeee;
+}
+
+#Club1:hover {
+    font-size: 1.5em;
+}
+
+#Club2:hover {
+    font-size: 1.5em;
+}
+
+#ABT {
+    display: none;
+}
+
+#Astronomy1 {
+    display: none;
+}
+
+#Astronomy2 {
+    display: none;
+}
+
+table {
+    border-collapse: collapse; 
+    border:solid #FFF;
+    background: linear-gradient(0deg, #ffc0cb, #afeeee)
+}
+
+table th{
+    padding: 3px 10px;
+    border: dashed 2px #FFF;
+}
+
+table td{
+    padding: 3px 10px;
+    text-align: center;
+    border: dashed 2px #FFF;
+}
